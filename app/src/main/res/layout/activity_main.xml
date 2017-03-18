@@ -11,11 +11,21 @@
     android:orientation="vertical"
     tools:context="com.example.dk.trial_alarm.MainActivity">
 
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id = "@+id/input_hour"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id = "@+id/input_minute"/>
+
     <Button
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:text = "start"
-        android:id="@+id/start_button"/>
+        android:text = "set"
+        android:id="@+id/set_button"/>
     <Button
         android:layout_width="160dp"
         android:layout_height="160dp"
